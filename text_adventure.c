@@ -154,11 +154,12 @@ int ss=1;
 printf("You walk left on the path\n");
 printf("You see a house in the distance\n");
 printf("Do you go to the house or stay on the path? type stay or go\n");
-scanf("%s", &path_decision);
+
 
 
 
     while(s==1){
+        scanf("%s", &path_decision);
             if (strcmp(path_decision, "stay")==0){
             printf("A bear came and ate you\n");
             printf("ending 5");
